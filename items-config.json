@@ -1,0 +1,316 @@
+{
+    "actors": {
+      "actor_1": {
+        "id": "actor_1",
+        "name": {
+          "en": "Anita"
+        },
+        "description": {
+          "en": "Shopkeeper"
+        },
+        "color": "#B98A7A"
+      },
+      "actor_2": {
+        "id": "actor_2",
+        "name": {
+          "en": "Vikram"
+        },
+        "description": {
+          "en": "Customer"
+        },
+        "color": "#7D9F30"
+      }
+    },
+    "stages": {
+      "early-shopping": {
+        "label": {
+          "en": "Early Shopping"
+        }
+      },
+      "mid-shopping": {
+        "label": {
+          "en": "Mid Shopping"
+        }
+      },
+      "late-shopping": {
+        "label": {
+          "en": "Late Shopping"
+        }
+      }
+    },
+    "events": [
+      {
+        "eventNo": 1,
+        "stageRef": "early-shopping",
+        "situation": {
+          "en": "Anita and Vikram are navigating a crowded marketplace. Anita is learning to manage inventory, while Vikram is getting familiar with different shops."
+        }
+      },
+     
+      {
+        "eventNo": 2,
+        "stageRef": "mid-shopping",
+        "situation": {
+          "en": "Anita is now adept at customer relations, while Vikram is exploring different quality products within his budget."
+        }
+      },
+      {
+        "eventNo": 3,
+        "stageRef": "late-shopping",
+        "situation": {
+          "en": "Just before a major holiday season, Anita prepares for increased demand. Vikram is looking for the best deals in a competitive shopping environment."
+        }
+      }
+    ],
+    "items": [
+      {
+        "itemType": "categoryA",
+        "tag": "item-1",
+        "label": {
+          "en": "Effective Bargaining"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-2",
+        "label": {
+          "en": "Quality Product Selection"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-3",
+        "label": {
+          "en": "Customer Satisfaction"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-4",
+        "label": {
+          "en": "Inventory Management"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-5",
+        "label": {
+          "en": "Smooth Checkout Experience"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-6",
+        "label": {
+          "en": "Effective Product Display"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-7",
+        "label": {
+          "en": "Efficient Shopping Route"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-8",
+        "label": {
+          "en": "Friendly Customer Service"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-9",
+        "label": {
+          "en": "Cost-Effective Purchases"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-10",
+        "label": {
+          "en": "Overcrowded Store"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-11",
+        "label": {
+          "en": "Product Shortages"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-12",
+        "label": {
+          "en": "Long Checkout Lines"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-13",
+        "label": {
+          "en": "Unhelpful Staff"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-14",
+        "label": {
+          "en": "Limited Product Range"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryA",
+        "tag": "item-15",
+        "label": {
+          "en": "High Prices"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-16",
+        "label": {
+          "en": "Efficient Time Management"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-17",
+        "label": {
+          "en": "Product Knowledge"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-18",
+        "label": {
+          "en": "Budget Control"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-19",
+        "label": {
+          "en": "Effective Communication"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-20",
+        "label": {
+          "en": "Customer Loyalty"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-21",
+        "label": {
+          "en": "Repeat Business"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-22",
+        "label": {
+          "en": "Personalized Service"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-23",
+        "label": {
+          "en": "Positive Shopping Experience"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-24",
+        "label": {
+          "en": "Shop Layout Understanding"
+        },
+        "quality": "good"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-25",
+        "label": {
+          "en": "Impulse Purchases"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-26",
+        "label": {
+          "en": "Unsatisfactory Customer Service"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-27",
+        "label": {
+          "en": "Miscommunication"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-28",
+        "label": {
+          "en": "Overspending"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-29",
+        "label": {
+          "en": "Difficulty Finding Products"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-30",
+        "label": {
+          "en": "Inadequate Stock Levels"
+        },
+        "quality": "bad"
+      },
+      {
+        "itemType": "categoryB",
+        "tag": "item-31",
+        "label": {
+          "en": "Negative Shopping Experience"
+        },
+        "quality": "bad"
+      }
+    ]
+  }
+  
